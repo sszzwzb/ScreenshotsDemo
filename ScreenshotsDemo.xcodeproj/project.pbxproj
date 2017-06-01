@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A64181AE1ECAA3FD00815A21 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A64181AD1ECAA3FD00815A21 /* MapViewController.m */; };
+		A64181B11ECAA47C00815A21 /* MapView.m in Sources */ = {isa = PBXBuildFile; fileRef = A64181B01ECAA47C00815A21 /* MapView.m */; };
+		A64181B41ECAA77600815A21 /* MapStickersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A64181B31ECAA77600815A21 /* MapStickersViewController.m */; };
+		A64181B71ECAA93B00815A21 /* MapButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A64181B61ECAA93B00815A21 /* MapButton.m */; };
+		A64181B91ECAD59B00815A21 /* mapFilImg.png in Resources */ = {isa = PBXBuildFile; fileRef = A64181B81ECAD59B00815A21 /* mapFilImg.png */; };
+		A64181BC1ECAD5D500815A21 /* MapStickersView.m in Sources */ = {isa = PBXBuildFile; fileRef = A64181BB1ECAD5D500815A21 /* MapStickersView.m */; };
+		A6B93C7B1ECC28AD00A9224A /* MapImageViewMovingPictures.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B93C7A1ECC28AD00A9224A /* MapImageViewMovingPictures.m */; };
+		A6B93C7D1ECC3FAF00A9224A /* mapFilImg2.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B93C7C1ECC3FAF00A9224A /* mapFilImg2.png */; };
+		A6B93C821ECC4A8A00A9224A /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6B93C811ECC4A8A00A9224A /* Photos.framework */; };
+		A6B93C891ECD708000A9224A /* MapLongImgViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B93C881ECD708000A9224A /* MapLongImgViewController.m */; };
+		A6B93C8C1ECD726000A9224A /* MapLongImgHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B93C8B1ECD726000A9224A /* MapLongImgHeadView.m */; };
 		A6DE03DD1EC5B1C5001E3AB7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6DE03DC1EC5B1C5001E3AB7 /* main.m */; };
 		A6DE03E01EC5B1C5001E3AB7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6DE03DF1EC5B1C5001E3AB7 /* AppDelegate.m */; };
 		A6DE03E31EC5B1C5001E3AB7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6DE03E21EC5B1C5001E3AB7 /* ViewController.m */; };
@@ -15,6 +26,15 @@
 		A6DE03EB1EC5B1C5001E3AB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6DE03E91EC5B1C5001E3AB7 /* LaunchScreen.storyboard */; };
 		A6DE03F61EC5B1C5001E3AB7 /* ScreenshotsDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A6DE03F51EC5B1C5001E3AB7 /* ScreenshotsDemoTests.m */; };
 		A6DE04011EC5B1C5001E3AB7 /* ScreenshotsDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A6DE04001EC5B1C5001E3AB7 /* ScreenshotsDemoUITests.m */; };
+		A6DE04141EC5C29C001E3AB7 /* map.png in Resources */ = {isa = PBXBuildFile; fileRef = A6DE04121EC5C29C001E3AB7 /* map.png */; };
+		A6DE04151EC5C29C001E3AB7 /* pay.png in Resources */ = {isa = PBXBuildFile; fileRef = A6DE04131EC5C29C001E3AB7 /* pay.png */; };
+		A6DE04191EC70957001E3AB7 /* PayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6DE04181EC70957001E3AB7 /* PayViewController.m */; };
+		A6DE041C1EC70974001E3AB7 /* payView.m in Sources */ = {isa = PBXBuildFile; fileRef = A6DE041B1EC70974001E3AB7 /* payView.m */; };
+		A6DE041F1EC7121A001E3AB7 /* payButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A6DE041E1EC7121A001E3AB7 /* payButton.m */; };
+		A6DE04221EC714E2001E3AB7 /* PayAdviceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6DE04211EC714E2001E3AB7 /* PayAdviceViewController.m */; };
+		A6DE04251EC71819001E3AB7 /* PayAdviceView.m in Sources */ = {isa = PBXBuildFile; fileRef = A6DE04241EC71819001E3AB7 /* PayAdviceView.m */; };
+		A6DE04281EC9828C001E3AB7 /* Pay2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6DE04271EC9828C001E3AB7 /* Pay2ViewController.m */; };
+		A6DE042B1EC9969C001E3AB7 /* PlaceholderTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = A6DE042A1EC9969C001E3AB7 /* PlaceholderTextView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +55,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A64181AC1ECAA3FD00815A21 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		A64181AD1ECAA3FD00815A21 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		A64181AF1ECAA47C00815A21 /* MapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapView.h; sourceTree = "<group>"; };
+		A64181B01ECAA47C00815A21 /* MapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapView.m; sourceTree = "<group>"; };
+		A64181B21ECAA77600815A21 /* MapStickersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapStickersViewController.h; sourceTree = "<group>"; };
+		A64181B31ECAA77600815A21 /* MapStickersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapStickersViewController.m; sourceTree = "<group>"; };
+		A64181B51ECAA93B00815A21 /* MapButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapButton.h; sourceTree = "<group>"; };
+		A64181B61ECAA93B00815A21 /* MapButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapButton.m; sourceTree = "<group>"; };
+		A64181B81ECAD59B00815A21 /* mapFilImg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mapFilImg.png; sourceTree = "<group>"; };
+		A64181BA1ECAD5D500815A21 /* MapStickersView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapStickersView.h; sourceTree = "<group>"; };
+		A64181BB1ECAD5D500815A21 /* MapStickersView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapStickersView.m; sourceTree = "<group>"; };
+		A6B93C791ECC28AD00A9224A /* MapImageViewMovingPictures.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapImageViewMovingPictures.h; sourceTree = "<group>"; };
+		A6B93C7A1ECC28AD00A9224A /* MapImageViewMovingPictures.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapImageViewMovingPictures.m; sourceTree = "<group>"; };
+		A6B93C7C1ECC3FAF00A9224A /* mapFilImg2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mapFilImg2.png; sourceTree = "<group>"; };
+		A6B93C7F1ECC49F700A9224A /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		A6B93C811ECC4A8A00A9224A /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
+		A6B93C871ECD708000A9224A /* MapLongImgViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapLongImgViewController.h; sourceTree = "<group>"; };
+		A6B93C881ECD708000A9224A /* MapLongImgViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapLongImgViewController.m; sourceTree = "<group>"; };
+		A6B93C8A1ECD726000A9224A /* MapLongImgHeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapLongImgHeadView.h; sourceTree = "<group>"; };
+		A6B93C8B1ECD726000A9224A /* MapLongImgHeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapLongImgHeadView.m; sourceTree = "<group>"; };
 		A6DE03D81EC5B1C5001E3AB7 /* ScreenshotsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScreenshotsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6DE03DC1EC5B1C5001E3AB7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A6DE03DE1EC5B1C5001E3AB7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +91,22 @@
 		A6DE03FC1EC5B1C5001E3AB7 /* ScreenshotsDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScreenshotsDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6DE04001EC5B1C5001E3AB7 /* ScreenshotsDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScreenshotsDemoUITests.m; sourceTree = "<group>"; };
 		A6DE04021EC5B1C5001E3AB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6DE04121EC5C29C001E3AB7 /* map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map.png; sourceTree = "<group>"; };
+		A6DE04131EC5C29C001E3AB7 /* pay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pay.png; sourceTree = "<group>"; };
+		A6DE04171EC70957001E3AB7 /* PayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayViewController.h; sourceTree = "<group>"; };
+		A6DE04181EC70957001E3AB7 /* PayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PayViewController.m; sourceTree = "<group>"; };
+		A6DE041A1EC70974001E3AB7 /* payView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = payView.h; sourceTree = "<group>"; };
+		A6DE041B1EC70974001E3AB7 /* payView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = payView.m; sourceTree = "<group>"; };
+		A6DE041D1EC7121A001E3AB7 /* payButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = payButton.h; sourceTree = "<group>"; };
+		A6DE041E1EC7121A001E3AB7 /* payButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = payButton.m; sourceTree = "<group>"; };
+		A6DE04201EC714E2001E3AB7 /* PayAdviceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayAdviceViewController.h; sourceTree = "<group>"; };
+		A6DE04211EC714E2001E3AB7 /* PayAdviceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PayAdviceViewController.m; sourceTree = "<group>"; };
+		A6DE04231EC71819001E3AB7 /* PayAdviceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayAdviceView.h; sourceTree = "<group>"; };
+		A6DE04241EC71819001E3AB7 /* PayAdviceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PayAdviceView.m; sourceTree = "<group>"; };
+		A6DE04261EC9828C001E3AB7 /* Pay2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pay2ViewController.h; sourceTree = "<group>"; };
+		A6DE04271EC9828C001E3AB7 /* Pay2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pay2ViewController.m; sourceTree = "<group>"; };
+		A6DE04291EC9969C001E3AB7 /* PlaceholderTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaceholderTextView.h; sourceTree = "<group>"; };
+		A6DE042A1EC9969C001E3AB7 /* PlaceholderTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaceholderTextView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +114,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6B93C821ECC4A8A00A9224A /* Photos.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +135,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A64181AB1ECAA3EC00815A21 /* map */ = {
+			isa = PBXGroup;
+			children = (
+				A64181AC1ECAA3FD00815A21 /* MapViewController.h */,
+				A64181AD1ECAA3FD00815A21 /* MapViewController.m */,
+				A64181B21ECAA77600815A21 /* MapStickersViewController.h */,
+				A64181B31ECAA77600815A21 /* MapStickersViewController.m */,
+				A64181BA1ECAD5D500815A21 /* MapStickersView.h */,
+				A64181BB1ECAD5D500815A21 /* MapStickersView.m */,
+				A64181AF1ECAA47C00815A21 /* MapView.h */,
+				A64181B01ECAA47C00815A21 /* MapView.m */,
+				A64181B51ECAA93B00815A21 /* MapButton.h */,
+				A64181B61ECAA93B00815A21 /* MapButton.m */,
+				A6B93C791ECC28AD00A9224A /* MapImageViewMovingPictures.h */,
+				A6B93C7A1ECC28AD00A9224A /* MapImageViewMovingPictures.m */,
+			);
+			path = map;
+			sourceTree = "<group>";
+		};
+		A6B93C7E1ECC49F700A9224A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6B93C811ECC4A8A00A9224A /* Photos.framework */,
+				A6B93C7F1ECC49F700A9224A /* AssetsLibrary.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A6B93C831ECD6CC700A9224A /* mapLongImg */ = {
+			isa = PBXGroup;
+			children = (
+				A6B93C871ECD708000A9224A /* MapLongImgViewController.h */,
+				A6B93C881ECD708000A9224A /* MapLongImgViewController.m */,
+				A6B93C8A1ECD726000A9224A /* MapLongImgHeadView.h */,
+				A6B93C8B1ECD726000A9224A /* MapLongImgHeadView.m */,
+			);
+			path = mapLongImg;
+			sourceTree = "<group>";
+		};
 		A6DE03CF1EC5B1C5001E3AB7 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +181,7 @@
 				A6DE03F41EC5B1C5001E3AB7 /* ScreenshotsDemoTests */,
 				A6DE03FF1EC5B1C5001E3AB7 /* ScreenshotsDemoUITests */,
 				A6DE03D91EC5B1C5001E3AB7 /* Products */,
+				A6B93C7E1ECC49F700A9224A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +202,10 @@
 				A6DE03DF1EC5B1C5001E3AB7 /* AppDelegate.m */,
 				A6DE03E11EC5B1C5001E3AB7 /* ViewController.h */,
 				A6DE03E21EC5B1C5001E3AB7 /* ViewController.m */,
+				A6B93C831ECD6CC700A9224A /* mapLongImg */,
+				A64181AB1ECAA3EC00815A21 /* map */,
+				A6DE04161EC70957001E3AB7 /* pay */,
+				A6DE04111EC5C29C001E3AB7 /* Resources */,
 				A6DE03E41EC5B1C5001E3AB7 /* Main.storyboard */,
 				A6DE03E71EC5B1C5001E3AB7 /* Assets.xcassets */,
 				A6DE03E91EC5B1C5001E3AB7 /* LaunchScreen.storyboard */,
@@ -138,6 +239,38 @@
 				A6DE04021EC5B1C5001E3AB7 /* Info.plist */,
 			);
 			path = ScreenshotsDemoUITests;
+			sourceTree = "<group>";
+		};
+		A6DE04111EC5C29C001E3AB7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A64181B81ECAD59B00815A21 /* mapFilImg.png */,
+				A6DE04121EC5C29C001E3AB7 /* map.png */,
+				A6DE04131EC5C29C001E3AB7 /* pay.png */,
+				A6B93C7C1ECC3FAF00A9224A /* mapFilImg2.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A6DE04161EC70957001E3AB7 /* pay */ = {
+			isa = PBXGroup;
+			children = (
+				A6DE04171EC70957001E3AB7 /* PayViewController.h */,
+				A6DE04181EC70957001E3AB7 /* PayViewController.m */,
+				A6DE04261EC9828C001E3AB7 /* Pay2ViewController.h */,
+				A6DE04271EC9828C001E3AB7 /* Pay2ViewController.m */,
+				A6DE04201EC714E2001E3AB7 /* PayAdviceViewController.h */,
+				A6DE04211EC714E2001E3AB7 /* PayAdviceViewController.m */,
+				A6DE041A1EC70974001E3AB7 /* payView.h */,
+				A6DE041B1EC70974001E3AB7 /* payView.m */,
+				A6DE04231EC71819001E3AB7 /* PayAdviceView.h */,
+				A6DE04241EC71819001E3AB7 /* PayAdviceView.m */,
+				A6DE04291EC9969C001E3AB7 /* PlaceholderTextView.h */,
+				A6DE042A1EC9969C001E3AB7 /* PlaceholderTextView.m */,
+				A6DE041D1EC7121A001E3AB7 /* payButton.h */,
+				A6DE041E1EC7121A001E3AB7 /* payButton.m */,
+			);
+			path = pay;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -247,9 +380,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6DE04141EC5C29C001E3AB7 /* map.png in Resources */,
 				A6DE03EB1EC5B1C5001E3AB7 /* LaunchScreen.storyboard in Resources */,
+				A64181B91ECAD59B00815A21 /* mapFilImg.png in Resources */,
 				A6DE03E81EC5B1C5001E3AB7 /* Assets.xcassets in Resources */,
+				A6DE04151EC5C29C001E3AB7 /* pay.png in Resources */,
 				A6DE03E61EC5B1C5001E3AB7 /* Main.storyboard in Resources */,
+				A6B93C7D1ECC3FAF00A9224A /* mapFilImg2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,9 +411,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6DE04281EC9828C001E3AB7 /* Pay2ViewController.m in Sources */,
+				A64181B11ECAA47C00815A21 /* MapView.m in Sources */,
+				A6B93C7B1ECC28AD00A9224A /* MapImageViewMovingPictures.m in Sources */,
 				A6DE03E31EC5B1C5001E3AB7 /* ViewController.m in Sources */,
 				A6DE03E01EC5B1C5001E3AB7 /* AppDelegate.m in Sources */,
+				A6B93C8C1ECD726000A9224A /* MapLongImgHeadView.m in Sources */,
+				A6B93C891ECD708000A9224A /* MapLongImgViewController.m in Sources */,
+				A6DE04221EC714E2001E3AB7 /* PayAdviceViewController.m in Sources */,
+				A6DE04251EC71819001E3AB7 /* PayAdviceView.m in Sources */,
+				A6DE041C1EC70974001E3AB7 /* payView.m in Sources */,
 				A6DE03DD1EC5B1C5001E3AB7 /* main.m in Sources */,
+				A6DE042B1EC9969C001E3AB7 /* PlaceholderTextView.m in Sources */,
+				A6DE041F1EC7121A001E3AB7 /* payButton.m in Sources */,
+				A64181B71ECAA93B00815A21 /* MapButton.m in Sources */,
+				A64181BC1ECAD5D500815A21 /* MapStickersView.m in Sources */,
+				A6DE04191EC70957001E3AB7 /* PayViewController.m in Sources */,
+				A64181B41ECAA77600815A21 /* MapStickersViewController.m in Sources */,
+				A64181AE1ECAA3FD00815A21 /* MapViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,11 +577,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = Q5WT3K4BRT;
 				INFOPLIST_FILE = ScreenshotsDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ky.ScreenshotsDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -437,11 +592,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = Q5WT3K4BRT;
 				INFOPLIST_FILE = ScreenshotsDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ky.ScreenshotsDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -510,6 +668,7 @@
 				A6DE04071EC5B1C5001E3AB7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A6DE04081EC5B1C5001E3AB7 /* Build configuration list for PBXNativeTarget "ScreenshotsDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +677,7 @@
 				A6DE040A1EC5B1C5001E3AB7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A6DE040B1EC5B1C5001E3AB7 /* Build configuration list for PBXNativeTarget "ScreenshotsDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +686,7 @@
 				A6DE040D1EC5B1C5001E3AB7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
